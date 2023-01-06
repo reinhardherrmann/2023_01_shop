@@ -5,7 +5,7 @@
     <div class="card-body">
         <?= $row['prod_description'];?><br>
         <hr class="solid">
-        Netto Preis: <?= number_format((float)$row['prod_price'], 2, '.', '');;
+        Netto Preis: <?= number_format((float)$row['prod_price']/100, 2, ',', '.');;
         echo ' €'?>
     </div>
     <div class="card-footer">
