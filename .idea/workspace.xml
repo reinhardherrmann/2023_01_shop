@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Step_06_Warenkorb_Detailseite_anzeigen" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="eeff562b-58a6-4816-be88-6e1836c42e31" name="localhost" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2C5JGku38BAQSc5QR5ZWs6X4BV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/Websites/shop",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.idesettings.emmet",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Websites\shop\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Websites\shop\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="" />
+      <created>1658086421229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658086421229</updated>
+      <workItem from="1658086423911" duration="130000" />
+      <workItem from="1658086682290" duration="4284000" />
+      <workItem from="1658128572426" duration="28051000" />
+      <workItem from="1671005305330" duration="1359000" />
+      <workItem from="1673025074576" duration="9878000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1658089412390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658089412390</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1658091313001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658091313001</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Step 01 Datenbankzugriff definieren und initial zuimplementieren&#10;&#10;getestet, läuft">
+      <created>1658131183638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658131183639</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Step 02 Projektstruktur aufbauen">
+      <created>1658131357105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658131357105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Step 02 Projektstruktur aufbauen&#10;&#10;created files:&#10;database.php  folder config&#10;database.php  folder functions&#10;main.php&#10;&#10;updated files&#10;card.php&#10;index.php">
+      <created>1658133726729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658133726729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Step 02 Projektstruktur aufbauen&#10;&#10;created files:&#10;navbar.php&#10;&#10;updated files&#10;main.php&#10;index.php">
+      <created>1658137604134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658137604134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;&#10;&#10;updated files&#10;card.php&#10;index.php">
+      <created>1658149786554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658149786554</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;&#10;&#10;updated files">
+      <created>1658154936247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658154936247</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php">
+      <created>1658165051071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658165051071</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Step 01 Datenbankzugriff definieren und initial zuimplementieren&#10;&#10;getestet, läuft" />
+    <MESSAGE value="Step 02 Projektstruktur aufbauen" />
+    <MESSAGE value="Step 02 Projektstruktur aufbauen&#10;&#10;created files:&#10;database.php  folder config&#10;database.php  folder functions&#10;main.php&#10;&#10;updated files&#10;card.php&#10;index.php" />
+    <MESSAGE value="Step 02 Projektstruktur aufbauen&#10;&#10;created files:&#10;navbar.php&#10;&#10;updated files&#10;main.php&#10;index.php" />
+    <MESSAGE value="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;&#10;&#10;updated files&#10;card.php&#10;index.php" />
+    <MESSAGE value="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;cart.php&#10;includes.php&#10;product.php&#10;routes.php&#10;user.php&#10;&#10;updated files&#10;card.php&#10;database.php&#10;main.php&#10;index.php" />
+    <MESSAGE value="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;&#10;&#10;updated files" />
+    <MESSAGE value="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
