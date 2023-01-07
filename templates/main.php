@@ -25,11 +25,11 @@
 
 <section class="container" id="product">
     <div class="row">
-        <?php while ($row = $result->fetch(PDO::FETCH_ASSOC)): ?>
+        <?php foreach($products as $product): ?>
             <div class="col">
                 <?php include 'card.php' ?>
             </div>
-        <?php endwhile; ?>
+        <?php endforeach; ?>
 
     </div>
 </section>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Step_07_Code_aufräumen">
+    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung">
+      <change afterPath="$PROJECT_DIR$/functions/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectDescription.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDescription.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Step_07_Code_aufräumen" />
+        <entry key="$PROJECT_DIR$" value="Part_04_Warenkorb" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +45,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Part_06_Code_restrukturieren" />
+                    <option name="lastUsedInstant" value="1673087997" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Part_04_Warenkorb" />
                     <option name="lastUsedInstant" value="1673074576" />
@@ -124,7 +134,7 @@
       <workItem from="1658128572426" duration="28051000" />
       <workItem from="1671005305330" duration="1359000" />
       <workItem from="1673025074576" duration="13463000" />
-      <workItem from="1673074476331" duration="8110000" />
+      <workItem from="1673074476331" duration="11372000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658089412390</created>
@@ -217,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673078083814</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung">
+      <created>1673086623833</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673086623833</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,23 +265,8 @@
     <MESSAGE value="master&#10;inital code with simple website und integriertem PHP Code" />
     <MESSAGE value="Step 01 Code strukturiert" />
     <MESSAGE value="Step_07_Code_aufräumen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step_07_Code_aufräumen" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>48</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
