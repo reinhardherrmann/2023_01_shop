@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="master&#10;inital code with simple website und integriertem PHP Code">
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main.php" afterDir="false" />
+    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Step 01 Code strukturiert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1658086682290" duration="4284000" />
       <workItem from="1658128572426" duration="28051000" />
       <workItem from="1671005305330" duration="1359000" />
-      <workItem from="1673025074576" duration="12221000" />
+      <workItem from="1673025074576" duration="13463000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658089412390</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673036189863</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Step 01 Code strukturiert">
+      <created>1673038406384</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673038406384</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="Step 04 Product in Warenkorb legen&#10;&#10;created files:&#10;&#10;&#10;updated files" />
     <MESSAGE value="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php" />
     <MESSAGE value="master&#10;inital code with simple website und integriertem PHP Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="master&#10;inital code with simple website und integriertem PHP Code" />
+    <MESSAGE value="Step 01 Code strukturiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 01 Code strukturiert" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
