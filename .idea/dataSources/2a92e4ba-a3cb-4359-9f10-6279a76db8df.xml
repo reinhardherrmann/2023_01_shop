@@ -11,38 +11,96 @@
     <schema id="4" parent="1" name="web283_10">
       <Current>1</Current>
     </schema>
-    <table id="5" parent="4" name="tbl_products">
+    <table id="5" parent="4" name="tbl_cart">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <column id="6" parent="5" name="prod_id">
-      <AutoIncrement>5</AutoIncrement>
-      <DataType>int(11)|0s</DataType>
+    <table id="6" parent="4" name="tbl_products">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <column id="7" parent="5" name="crt_id">
+      <AutoIncrement>1</AutoIncrement>
+      <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="7" parent="5" name="prod_title">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="8" parent="5" name="crt_product_id">
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8" parent="5" name="prod_description">
-      <DataType>text|0s</DataType>
+    <column id="9" parent="5" name="crt_user_id">
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="9" parent="5" name="prod_price">
-      <DataType>double|0s</DataType>
+    <column id="10" parent="5" name="crt_amount">
+      <DataType>int(10) unsigned|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="10" parent="5" name="PRIMARY">
+    <column id="11" parent="5" name="crt_created_at">
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="12" parent="5" name="PRIMARY">
+      <ColNames>crt_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="13" parent="5" name="crt_product_id_crt_user_id">
+      <ColNames>crt_product_id
+crt_user_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="14" parent="5" name="crt_user_id">
+      <ColNames>crt_user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="15" parent="5" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="16" parent="5" name="crt_product_id_crt_user_id">
+      <UnderlyingIndexName>crt_product_id_crt_user_id</UnderlyingIndexName>
+    </key>
+    <column id="17" parent="6" name="prod_id">
+      <AutoIncrement>5</AutoIncrement>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="18" parent="6" name="prod_title">
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="19" parent="6" name="prod_description">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="20" parent="6" name="prod_price">
+      <Comment>Preis in Eurocent</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="21" parent="6" name="PRIMARY">
       <ColNames>prod_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="11" parent="5" name="PRIMARY">
+    <key id="22" parent="6" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

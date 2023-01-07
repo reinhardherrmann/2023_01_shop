@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Step 01 Code strukturiert">
+    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Step_07_Code_aufräumen">
+      <change afterPath="$PROJECT_DIR$/templates/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a92e4ba-a3cb-4359-9f10-6279a76db8df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a92e4ba-a3cb-4359-9f10-6279a76db8df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -26,12 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Step_07_Code_aufräumen" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -39,6 +43,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Part_04_Warenkorb" />
+                    <option name="lastUsedInstant" value="1673074576" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Step_07_Code_aufräumen" />
                     <option name="lastUsedInstant" value="1673036221" />
@@ -72,24 +80,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/Websites/shop",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Websites/shop&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Websites\shop\templates" />
@@ -117,6 +125,7 @@
       <workItem from="1658128572426" duration="28051000" />
       <workItem from="1671005305330" duration="1359000" />
       <workItem from="1673025074576" duration="13463000" />
+      <workItem from="1673074476331" duration="2494000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658089412390</created>
@@ -195,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673038406384</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Step_07_Code_aufräumen">
+      <created>1673074543181</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673074543181</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +240,8 @@
     <MESSAGE value="Step 06 Warenkorb Detailseite anzeigen&#10;&#10;created files:&#10;cartPage.php&#10;cartItem.php&#10;&#10;updated files&#10;cart.php&#10;index.php&#10;navbar.php&#10;routes.php" />
     <MESSAGE value="master&#10;inital code with simple website und integriertem PHP Code" />
     <MESSAGE value="Step 01 Code strukturiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 01 Code strukturiert" />
+    <MESSAGE value="Step_07_Code_aufräumen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step_07_Code_aufräumen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
