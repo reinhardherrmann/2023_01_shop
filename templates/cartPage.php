@@ -5,8 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <base href="<?= $baseUrl ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
     <title>Reinhards Shop</title>
+    <base href="<?= $baseUrl ?>">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -20,15 +24,13 @@
     </div>
 </header>
 
-<section class="container" id="product">
+<section class="container" id="cartItems">
+    <?php foreach ($cartItems as $cartItem): ?>
     <div class="row">
-        <?php foreach($products as $product): ?>
-            <div class="col">
-                <?php include 'card.php' ?>
-            </div>
-        <?php endforeach; ?>
-
+    <?php include __DIR__.'/cartItem.php'; ?>
     </div>
+    <?php endforeach; ?>
+
 </section>
 
 

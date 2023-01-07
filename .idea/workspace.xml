@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung">
-      <change afterPath="$PROJECT_DIR$/functions/cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+    <list default="true" id="05d3f25a-20d2-49aa-933b-146ee827af07" name="Changes" comment="Part_06_Code_restrukturieren&#10;&#10;index.php minimiert&#10;includes definiert und alle wichtigen funktionen ausgelagert">
+      <change afterPath="$PROJECT_DIR$/templates/cartItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cartPage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/card.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Part_04_Warenkorb" />
+        <entry key="$PROJECT_DIR$" value="Part_06_Code_restrukturieren" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +43,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Part_07_Warenkorb_Detailseite_anzeigen" />
+                    <option name="lastUsedInstant" value="1673091261" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Part_06_Code_restrukturieren" />
                     <option name="lastUsedInstant" value="1673087997" />
@@ -95,7 +97,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/Websites/shop",
+    "last_opened_file_path": "H:/Websites/shop/templates",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.idesettings.emmet",
@@ -109,6 +111,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Websites\shop\templates" />
       <recent name="E:\Websites\shop\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -134,7 +137,7 @@
       <workItem from="1658128572426" duration="28051000" />
       <workItem from="1671005305330" duration="1359000" />
       <workItem from="1673025074576" duration="13463000" />
-      <workItem from="1673074476331" duration="11372000" />
+      <workItem from="1673074476331" duration="20562000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658089412390</created>
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673086623833</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Part_06_Code_restrukturieren&#10;&#10;index.php minimiert&#10;includes definiert und alle wichtigen funktionen ausgelagert">
+      <created>1673090544474</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673090544474</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +276,8 @@
     <MESSAGE value="Step 01 Code strukturiert" />
     <MESSAGE value="Step_07_Code_aufräumen" />
     <MESSAGE value="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part_04_Warenkorb&#10;&#10;Produkt kann mit User-ID in den Warenkorb gelegt werden. Dopplte Produkteinträge führen noch zu einer Fehlermeldung" />
+    <MESSAGE value="Part_06_Code_restrukturieren&#10;&#10;index.php minimiert&#10;includes definiert und alle wichtigen funktionen ausgelagert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part_06_Code_restrukturieren&#10;&#10;index.php minimiert&#10;includes definiert und alle wichtigen funktionen ausgelagert" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
